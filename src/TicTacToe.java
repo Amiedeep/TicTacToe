@@ -10,6 +10,7 @@ public class TicTacToe extends Board implements ActionListener
     Player player2;
     TicTacToe()
     {
+        this.setTitle("zero kaanta implemented by Amie(Amandeep Singh) :D");
         player1=new Player("Amie");
         player2=new Player("Gobind");
         player1Name.setText("Player1: "+player1.name);

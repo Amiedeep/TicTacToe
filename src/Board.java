@@ -62,8 +62,4 @@ public class Board extends JFrame
         this.setSize(450, 400);
         
     }
-    public static void main(String[] args) 
-    {
-        Board obj=new Board();
-    }
 }
