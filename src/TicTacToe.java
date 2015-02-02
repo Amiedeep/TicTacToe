@@ -104,7 +104,9 @@ public class TicTacToe extends Board implements ActionListener
                 gameOver();
                 return;
             }
-            else if(cell[0][0].getText()==sign && cell[1][1].getText()==sign && cell[2][2].getText()==sign)//game over player wins
+            
+        }
+            if(cell[0][0].getText()==sign && cell[1][1].getText()==sign && cell[2][2].getText()==sign)//game over player wins
             {
                 if(player1.sign==sign)
                     status.setText("Player1 Wins");
@@ -122,7 +124,6 @@ public class TicTacToe extends Board implements ActionListener
                 gameOver();
                 return;
             }
-        }
                 stalemate();
 //                if(stalemate()==true)
 //                {
